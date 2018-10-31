@@ -10,7 +10,7 @@ end
     song.title = filename.split(" - ")[1]
     song
   end
-  
+
   def artist_name=(name)
      if (self.artist.nil?)
        self.artist = Artist.new(name)
